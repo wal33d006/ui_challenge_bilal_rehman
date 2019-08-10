@@ -40,9 +40,12 @@ class _MyHomePageState extends State<MyHomePage> {
               size: 40.0,
             ),
             actions: <Widget>[
-              IconButton(
-                icon: Icon(Icons.person_add),
-                onPressed: () {},
+              Padding(
+                padding: const EdgeInsets.only(right: 8.0),
+                child: IconButton(
+                  icon: Icon(Icons.person_add),
+                  onPressed: () {},
+                ),
               )
             ],
             backgroundColor: Colors.black,
